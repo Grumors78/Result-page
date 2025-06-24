@@ -160,11 +160,11 @@ font-size: 25px;
 .proceed:active{
     background: linear-gradient(hsl(241, 81%, 54%),hsl(234, 85%, 45%));
 }
-@media (max-width: 600px)
+@media (max-width: 375px)
 {
     body{
         display: flex;
-        padding: 10px;
+        padding: 0;
         justify-content: center;
         background-color: aquamarine;
         font-family: Hanken Grotesk ;
@@ -172,12 +172,12 @@ font-size: 25px;
  .container{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     flex-wrap: wrap;
     
  }
 }
-@media (max-width: 600px)
+@media (max-width: 375px)
 {
     body{
  background-color: white;
@@ -194,7 +194,7 @@ font-size: 25px;
     z-index:1;
     position: absolute;
     top: 140px;
-    right: 41.3%;
+    right: 39%;
     }
 
 }
